@@ -7,3 +7,7 @@
       margin-bottom: 40px;
       z-index: 900;
     }
+
+.detail {
+  opacity: 0.5;
+}

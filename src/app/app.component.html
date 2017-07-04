@@ -5,13 +5,14 @@
       <div class="mdl-layout--large-screen-only mdl-layout__header-row">
       </div>
       <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-        <h3>Freed</h3>
+        <h3>Mocha </h3>
+        <h3 class="detail">&nbsp; | &nbsp;</h3><h3 class="detail">{{name}}</h3>
       </div>
       <div class="mdl-layout--large-screen-only mdl-layout__header-row">
       </div>
       <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-        <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
-        <a href="#features" class="mdl-layout__tab">Discover</a>
+        <a routerLink="/overview" routerLinkActive="is-active" class="mdl-layout__tab">Overview</a>
+        <a routerLink="/discover" routerLinkActive="is-active" class="mdl-layout__tab">Discover</a>
         <a href="#features" class="mdl-layout__tab">Trending</a>
         <a href="#features" class="mdl-layout__tab">Profile</a>
         <a href="#features" class="mdl-layout__tab">Settings</a>
@@ -24,18 +25,4 @@
     </header>
   <!-- END NAVIGATION -->
 
-    <main class="mdl-layout__content">
-      <div class="mdl-layout__tab-panel is-active" id="overview">
-        <freed-news></freed-news>
-        <while-away></while-away>
-        <interested-category></interested-category>
-        <interested-topics></interested-topics>
-      </div>
-      <div class="mdl-layout__tab-panel" id="features">
-        <demo-content></demo-content>
-      </div>
-      <freed-footer></freed-footer>
-    </main>
-  </div>
-  <a href="#" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Beta</a>
-  <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <router-outlet></router-outlet>
