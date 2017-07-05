@@ -7,8 +7,7 @@ import { NewsFeedComponent } from './news-feed.component';
 import { FreedNewsComponent } from './freed-news.component';
 import { WhileAwayComponent } from './while-away.component';
 import { InterestedCategoryComponent } from './interested-category.component';
-import { InterestedTopicsComponent } from './interested-topics.component';
-import { DemoContentComponent } from './demo-content.component';
+import { WhatsHotComponent } from './whats-hot.component';
 import { FooterComponent } from './footer.component';
 import { DiscoverComponent } from './discover.component';
 import { OverviewComponent } from './overview.component';
@@ -20,8 +19,7 @@ import { OverviewComponent } from './overview.component';
     FreedNewsComponent,
     WhileAwayComponent,
     InterestedCategoryComponent,
-    InterestedTopicsComponent,
-    DemoContentComponent,
+    WhatsHotComponent,
     FooterComponent,
     DiscoverComponent,
     OverviewComponent
