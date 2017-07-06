@@ -1,7 +1,5 @@
-<img src="https://www.dropbox.com/s/40a3rzhaou01vqd/mocha.png?raw=1" height="20px">
-
 ### This is Pushbase.
-> A social network.
+> A social network.      <img src="https://www.dropbox.com/s/40a3rzhaou01vqd/mocha.png?raw=1" height="20px">
 
 <br/>
 
