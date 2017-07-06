@@ -1,7 +1,7 @@
 <img src="https://www.dropbox.com/s/40a3rzhaou01vqd/mocha.png?raw=1" height="80px">
 
-### This is Freed.
-> A social network built on Angular.
+### This is Pushbase.
+> A social network.
 
 <br/>
 
