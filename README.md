@@ -1,4 +1,4 @@
-<img src="https://glacial-forest-28905.herokuapp.com/images/logo.png">
+<img src="https://glacial-forest-28905.herokuapp.com/images/logo.png" width="50px">
 
 ### This is Pushbase.
 > A social network.
