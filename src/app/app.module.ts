@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { NewsFeedComponent } from './news-feed.component';
@@ -9,8 +10,14 @@ import { WhileAwayComponent } from './while-away.component';
 import { InterestedCategoryComponent } from './interested-category.component';
 import { WhatsHotComponent } from './whats-hot.component';
 import { FooterComponent } from './footer.component';
-import { DiscoverComponent } from './discover.component';
+import { DiscoveriesComponent } from './discoveries.component';
 import { OverviewComponent } from './overview.component';
+
+import { DiscoverService } from './discover.service';
+
+// Imports for loading & configuring the in-memory web api
+import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService }  from './in-memory-data.service';
 
 @NgModule({
   declarations: [
@@ -21,14 +28,16 @@ import { OverviewComponent } from './overview.component';
     InterestedCategoryComponent,
     WhatsHotComponent,
     FooterComponent,
-    DiscoverComponent,
+    DiscoveriesComponent,
     OverviewComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpModule,
+    InMemoryWebApiModule.forRoot(InMemoryDataService)
   ],
-  providers: [],
+  providers: [ DiscoverService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

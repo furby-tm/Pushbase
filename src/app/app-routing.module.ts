@@ -1,13 +1,13 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { DiscoverComponent } from './discover.component';
+import { DiscoveriesComponent } from './discoveries.component';
 import { OverviewComponent } from './overview.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/overview', pathMatch: 'full' },
   { path: 'overview', component: OverviewComponent, data: { name: 'Overview' } },
-  { path: 'discover',  component: DiscoverComponent, data: { name: 'Discover' } }
+  { path: 'discover',  component: DiscoveriesComponent, data: { name: 'Discover' } }
 ];
 
 @NgModule({

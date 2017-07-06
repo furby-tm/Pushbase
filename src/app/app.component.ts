@@ -16,6 +16,7 @@ export class AppComponent {
 ) { }
 
 ngOnInit() {
+  //
   this.router.events
     .filter(event => event instanceof NavigationEnd)
     .subscribe(event => {
