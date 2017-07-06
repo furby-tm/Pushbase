@@ -21,6 +21,6 @@ npm start
 ###### Made possible by Tyler Furby.
 
 <p>
-    <img src="https://www.dropbox.com/s/40a3rzhaou01vqd/mocha.png?raw=1" width="20px">
-    <em>Furby Production</em>
+    <img src="https://www.dropbox.com/s/40a3rzhaou01vqd/mocha.png?raw=1" width="30px">
+    <em>Furby</em>
 </p>
