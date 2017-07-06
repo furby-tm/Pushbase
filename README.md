@@ -22,4 +22,4 @@ npm start
 
 <img src="https://www.dropbox.com/s/40a3rzhaou01vqd/mocha.png?raw=1" height="40px">
 
-> Furby Logo
+###### Furby Production
