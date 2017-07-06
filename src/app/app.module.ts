@@ -12,6 +12,7 @@ import { WhatsHotComponent } from './whats-hot.component';
 import { FooterComponent } from './footer.component';
 import { DiscoveriesComponent } from './discoveries.component';
 import { OverviewComponent } from './overview.component';
+import { TrendingComponent } from './trending.component';
 
 import { DiscoverService } from './discover.service';
 
@@ -29,7 +30,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
     WhatsHotComponent,
     FooterComponent,
     DiscoveriesComponent,
-    OverviewComponent
+    OverviewComponent,
+    TrendingComponent
   ],
   imports: [
     BrowserModule,

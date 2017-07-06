@@ -1,5 +1,6 @@
 <div class="grid grid-pad">
   <a *ngFor="let discover of discoveries" [routerLink]="['/detail', discover.id]" class="col-1-4">
+    <section class="section mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
     <div class="module hero">
     <div class="demo-card-wide mdl-card mdl-shadow--2dp">
       <div class="mdl-card__title">
@@ -21,5 +22,6 @@
       </div>
     </div>
   </div>
+</section>
   </a>
 </div>

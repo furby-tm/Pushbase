@@ -23,7 +23,7 @@ export class DiscoveriesComponent implements OnInit {
         private discoverService: DiscoverService
     ){
         let currentTitle = this.title.getTitle();
-        this.title.setTitle('Discover');
+        this.title.setTitle('Mocha | Discover');
     }
 
     ngOnInit(): void {
