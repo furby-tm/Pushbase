@@ -26,5 +26,5 @@ npm start
 <br/>
 <p>
     <img src="https://www.dropbox.com/s/40a3rzhaou01vqd/mocha.png?raw=1" width="20px">
-    <em style="font-size:5px"><- The Furby Logo</em>
+    <em style="font-size:5px"><- Tyler Furby</em>
 </p>
