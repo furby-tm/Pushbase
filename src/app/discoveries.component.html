@@ -1,27 +1,28 @@
-<div class="grid grid-pad">
-  <a *ngFor="let discover of discoveries" [routerLink]="['/detail', discover.id]" class="col-1-4">
-    <section class="section mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-    <div class="module hero">
-    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-      <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text">{{discover.name}}</h2>
-      </div>
-      <div class="mdl-card__supporting-text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Mauris sagittis pellentesque lacus eleifend lacinia...
-      </div>
-      <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-          Get Started
-        </a>
-      </div>
-      <div class="mdl-card__menu">
-        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-          <i class="material-icons">share</i>
-        </button>
-      </div>
+<div class="group">
+  <a *ngFor="let discover of discoveries" [routerLink]="['/detail', discover.id]" class="list">
+    <div class="section--center">
+     <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
+    <main class="mdl-layout__content">
+        <div class="demo-blog__posts mdl-grid">
+
+          <div class="mdl-card on-the-road-again mdl-cell mdl-cell--12-col">
+            <div class="mdl-color--primary-dark mdl-card__media mdl-color-text--grey-50">
+              <h3><a href="">{{discover.name}}</a></h3>
+            </div>
+            <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+              <p>{{discover.description}}</p>
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div class="minilogo"></div>
+              <div>
+                <strong>{{discover.author}}</strong>
+                <span>2 days ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
   </div>
-</section>
   </a>
 </div>

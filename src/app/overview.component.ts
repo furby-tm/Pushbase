@@ -14,6 +14,6 @@ export class OverviewComponent {
         private title: Title
     ){
         let currentTitle = this.title.getTitle();
-        this.title.setTitle('Mocha | Overview');
+        this.title.setTitle('Pushbase | Overview');
     }
 }

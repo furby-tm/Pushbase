@@ -13,6 +13,6 @@ export class TrendingComponent {
         private title: Title
     ){
         let currentTitle = this.title.getTitle();
-        this.title.setTitle('Mocha | Trending');
+        this.title.setTitle('Pushbase | Trending');
     }
 }

@@ -23,11 +23,11 @@ export class DiscoveriesComponent implements OnInit {
         private discoverService: DiscoverService
     ){
         let currentTitle = this.title.getTitle();
-        this.title.setTitle('Mocha | Discover');
+        this.title.setTitle('Pushbase | Discover');
     }
 
     ngOnInit(): void {
-      this.discoverService.getDiscoveries().then(discoveries => this.discoveries = discoveries);
+      this.discoverService.getDiscoveries().then(discoveries => this.discoveries = discoveries.slice(0,4));
     }
 
 }
