@@ -2,6 +2,7 @@ section {
   margin-top: 50px;
   margin-left: 50px;
   float: left;
+  width: 50%;
 }
 .demo-card-wide.mdl-card {
   width: 50%;
