@@ -13,6 +13,7 @@ import { FooterComponent } from './footer.component';
 import { DiscoveriesComponent } from './discoveries.component';
 import { OverviewComponent } from './overview.component';
 import { TrendingComponent } from './trending.component';
+import { SettingsComponent } from './settings.component';
 
 import { DiscoverService } from './discover.service';
 
@@ -31,7 +32,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
     FooterComponent,
     DiscoveriesComponent,
     OverviewComponent,
-    TrendingComponent
+    TrendingComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,
