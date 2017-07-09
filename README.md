@@ -10,7 +10,7 @@
 # install dependencies
 npm install
 
-# serve at localhost:3000
+# serve at localhost:4200
 npm start
 ```
 
