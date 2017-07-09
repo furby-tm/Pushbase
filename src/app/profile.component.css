@@ -1,0 +1,16 @@
+section {
+  margin-top: 50px;
+  margin-left: 50px;
+  float: left;
+}
+.demo-card-wide.mdl-card {
+  width: 50%;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 276px;
+  background: url('https://scontent.fsnc1-2.fna.fbcdn.net/v/t31.0-8/18077023_10207878828242901_935951264698069610_o.jpg?oh=552b86e2ba2372c199f65b6c9800db82&oe=59C573AA') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}

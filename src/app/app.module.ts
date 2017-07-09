@@ -14,6 +14,7 @@ import { DiscoveriesComponent } from './discoveries.component';
 import { OverviewComponent } from './overview.component';
 import { TrendingComponent } from './trending.component';
 import { SettingsComponent } from './settings.component';
+import { ProfileComponent } from './profile.component';
 
 import { DiscoverService } from './discover.service';
 
@@ -33,7 +34,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
     DiscoveriesComponent,
     OverviewComponent,
     TrendingComponent,
-    SettingsComponent
+    SettingsComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
